@@ -4,10 +4,18 @@ body{
 
 .top-row-style{
 	padding-top: 200px;
+	padding-bottom: 50px;
 }
 
 .btn-style{
-	color: #1B9BBC;
-	background-color: #DFF3E3;
+	color: #FDE74C;
+	background-color: #E55934;
+	width: 100%;
 
+}
+
+.answer-block{
+	background-color: white;
+	height: 200px;
+	border: 2px solid #E55934;
 }
