@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+<script src="js/main.js"></script>
 
 	<head>
 		<link rel="stylesheet" href="css/style.css">
@@ -11,15 +12,14 @@
 			<div class="row top-row-style">
 				<div class="col-xs-4 col-s-4 col-md-4"></div>
 				<div class="col-xs-4 col-s-4 col-md-4">
-				<button class="btn btn-style btn-lg btn-block" type="submit">What time is it?</button>
+					<button class="btn btn-style btn-lg btn-block" type="submit" onclick="getTime()">What time is it?</button>
 				</div>
 				<div class="col-xs-4 col-s-4 col-md-4"></div>
 			</div>
 			<div class="row">
 				<div class="col-xs-4 col-s-4 col-md-4"></div>
 				<div class="col-xs-4 col-s-4 col-md-4">
-				<div class="answer-block">
-				</div>
+					<div class="answer-block">The time is:<p id="time"></p></div>
 				</div>
 				<div class="col-xs-4 col-s-4 col-md-4"></div>
 			</div>

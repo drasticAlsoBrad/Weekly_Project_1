@@ -15,7 +15,7 @@ body{
 }
 
 .answer-block{
-	background-color: white;
 	height: 200px;
 	border: 2px solid #E55934;
+	color: white;
 }
